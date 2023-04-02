@@ -1,0 +1,21 @@
+{
+  "name": "logseq-todos-export-import",
+  "version": "0.0.1",
+  "author": "kostard",
+  "main": "index.html",
+  "description": "A simple plugin for exporting and importing the TODOs as excel document, allowing you better control over it.",
+  "license": "MIT",
+  "devDependencies": {
+    "@logseq/libs": "0.0.14"
+  },
+  "browserslist": [
+    "chrome 80"
+  ],
+  "logseq": {
+    "icon": "logseq.png",
+    "id": "logseq-todos-export-import"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
